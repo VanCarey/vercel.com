@@ -5,184 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Comprehensive Guide to Professional Concrete Services in Richmond, VA</title>
     <style>
-        .concrete-guide {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        .concrete-article {
-            background: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-        }
-        
-        .concrete-title {
-            color: #2c3e50;
-            font-size: 2.4rem;
-            margin-bottom: 25px;
-            border-bottom: 3px solid #FF6B00;
-            padding-bottom: 15px;
-            font-weight: 700;
-        }
-        
-        .concrete-section-title {
-            color: #2c3e50;
-            font-size: 1.8rem;
-            margin: 40px 0 20px;
-            border-left: 5px solid #FF6B00;
-            padding-left: 15px;
-            font-weight: 600;
-        }
-        
-        .concrete-subsection-title {
-            color: #2c3e50;
-            font-size: 1.5rem;
-            margin: 30px 0 15px;
-            font-weight: 600;
-        }
-        
-        .concrete-subsubsection-title {
-            color: #2c3e50;
-            font-size: 1.3rem;
-            margin: 25px 0 10px;
-            font-weight: 500;
-        }
-        
-        .concrete-intro {
-            font-size: 1.15rem;
-            margin-bottom: 25px;
-        }
-        
-        .concrete-list {
-            margin: 15px 0;
-            padding-left: 25px;
-        }
-        
-        .concrete-list li {
-            margin-bottom: 12px;
-            position: relative;
-            list-style-type: none;
-            padding-left: 25px;
-        }
-        
-        .concrete-list li:before {
-            content: "•";
-            color: #FF6B00;
-            font-size: 1.5rem;
-            position: absolute;
-            left: 0;
-            top: -3px;
-        }
-        
-        .concrete-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
-        
-        .concrete-table th {
-            background-color: #FF6B00;
-            color: white;
-            text-align: left;
-            padding: 12px;
-        }
-        
-        .concrete-table td {
-            padding: 10px 12px;
-            border-bottom: 1px solid #ddd;
-        }
-        
-        .concrete-table tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        
-        .concrete-checklist {
-            margin: 20px 0;
-        }
-        
-        .concrete-checklist-item {
-            margin-bottom: 10px;
-            padding-left: 30px;
-            position: relative;
-        }
-        
-        .concrete-checklist-item:before {
-            position: absolute;
-            left: 0;
-            top: 0;
-            font-size: 1.2rem;
-        }
-        
-        .checkmark:before {
-            content: "✓";
-            color: #27ae60;
-        }
-        
-        .xmark:before {
-            content: "✗";
-            color: #e74c3c;
-        }
-        
-        .concrete-cta {
-            background: #f8f9fa;
-            border-left: 5px solid #FF6B00;
-            padding: 25px;
-            margin: 40px 0;
-            border-radius: 0 5px 5px 0;
-        }
-        
-        .concrete-cta p {
-            margin: 0;
-            font-size: 1.1rem;
-        }
-        
-        .concrete-conclusion {
-            font-size: 1.1rem;
-            margin: 40px 0 20px;
-            padding: 20px;
-            background-color: #f5f5f5;
-            border-radius: 5px;
-        }
-        
-        a.concrete-link {
-            color: #FF6B00;
-            text-decoration: none;
-            font-weight: 600;
-        }
-        
-        a.concrete-link:hover {
-            text-decoration: underline;
-        }
-        
-        @media (max-width: 768px) {
-            .concrete-title {
-                font-size: 1.8rem;
-            }
-            
-            .concrete-section-title {
-                font-size: 1.5rem;
-            }
-            
-            .concrete-subsection-title {
-                font-size: 1.3rem;
-            }
-            
-            .concrete-table {
-                display: block;
-                overflow-x: auto;
+/* Base typography */
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Headings */
+article h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  color: #222;
+}
+
+article h2 {
+  font-size: 1.8em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: #444;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.3em;
+}
+
+article h3 {
+  font-size: 1.4em;
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+  color: #555;
+}
+
+/* Paragraphs */
+article p {
+  margin: 0.8em 0;
+}
+
+/* Lists */
+article ul {
+  margin: 0.8em 0 0.8em 1.2em;
+  padding: 0;
+}
+
+article ul li {
+  margin-bottom: 0.4em;
+}
+
+/* Links */
+article a {
+  color: #FF6B00;
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+/* Tables */
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+article table th,
+article table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+article table th {
+  background-color: #f9f9f9;
+}
+
+/* Code and preformatted text, if any */
+article pre,
+article code {
+  background-color: #f4f4f4;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+  font-size: 0.95em;
+}
+
+/* Emphasis */
+article strong {
+  font-weight: bold;
+}
+
+/* Responsive images (if added later) */
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em 0;
             }
         }
     </style>
 </head>
 <body>
-    <div class="concrete-guide">
-        <article class="concrete-article">
+<article>
   <h1>The Comprehensive Guide to Professional Concrete Services in Richmond, VA</h1>
 
   <h2>Introduction: Why Quality Concrete Matters in Central Virginia</h2>
@@ -379,3 +304,4 @@
   <h2>Conclusion</h2>
   <p>Quality concrete work represents one of the best investments in your property’s future. By understanding Richmond’s unique challenges, choosing the right contractor, and following proper maintenance protocols, your concrete surfaces will deliver decades of reliable service.</p>
   <p>For a detailed consultation on your upcoming project, <a href="https://www.concretesrichmondva.com/contact-us/" target="_blank">contact our team</a> of local experts today. We proudly serve homeowners and businesses across Henrico, Chesterfield, Hanover, and the entire Richmond metro area with best-in-class concrete solutions.</p>
+</article>
